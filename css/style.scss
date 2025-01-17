@@ -1,0 +1,56 @@
+$font-1: "Rubik", serif;  // Weights [300, 900]
+
+$color-1: #1c1c1c;
+
+
+@keyframes rainbow-scroll
+{
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0 }
+}
+
+
+@keyframes float
+{
+    from { transform: translateY(0); }
+    to { transform: translateY(7px); }
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+html, body
+{
+    height: 100%;
+}
+
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-1;
+    background-color: $color-1;
+}
+
+
+h1
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 40px;
+    background: linear-gradient(to right, #dd0303, #f78800 , #f7e600, #007c25, #004bf7, #460f4f);
+    background-clip: text;
+    color: transparent;
+    animation: rainbow-scroll 5s linear alternate infinite, float 1s ease-in-out alternate infinite;
+    background-size: 400% 100%;
+}
