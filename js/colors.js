@@ -17,16 +17,16 @@ const $tiles = utils.$(".tile");
 // animate(utils.shuffle($tiles), {
 animate($tiles, {
     scale: [
-        { to: 1.25, ease: "inOut(3)", duration: 130 },
+        { to: 1.2, ease: "inOut(3)", duration: 130 },
         { to: 1, ease: createSpring({ stiffness: 100 }) }
     ],
     // background: utils.randomPick(PRIDE_COLORS),
-    background: ,
+    background: "#FF6600",
     delay: stagger(30),
     ease: "outCirc",
     alternate: 10,
     loop: true,
-    loopDelay: 0
+    // loopDelay: 0
 });
 
 
