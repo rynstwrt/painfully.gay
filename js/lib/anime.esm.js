@@ -8202,7 +8202,7 @@ const text = {
 
 /**
  * @param  {Number|String|[Number|String,Number|String]} val
- * @param  {StaggerParams} params
+ * @param  {{gridDims: number[], from: {axis: string}}} params
  * @return {StaggerFunction}
  */
 const stagger = (val, params = {}) => {

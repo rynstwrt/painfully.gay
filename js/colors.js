@@ -14,29 +14,55 @@ const PRIDE_COLORS = ["#E50000", "#FF8D00", "#FFEE00", "#028121", "#004CFF", "#7
 const $tiles = utils.$(".tile");
 
 
-// animate(utils.shuffle($tiles), {
-animate($tiles, {
-    scale: [
-        { to: 1.25, ease: "inOut(3)", duration: 130 },
-        { to: 1, ease: createSpring({ stiffness: 100 }) }
-    ],
-    // background: utils.randomPick(PRIDE_COLORS),
-    background: ,
-    delay: stagger(30),
-    ease: "outCirc",
-    alternate: 10,
-    loop: true,
-    loopDelay: 0
-});
+const gridDims = [6, 5];
+
+// const randomIndex = utils.random(0, 5*6);
+
+
+function animateGrid()
+{
+    animate($tiles, {
+        // background: utils.randomPick(PRIDE_COLORS),
+
+        scale: [
+            {
+                to: [1, 1.2],
+                from: {axis: "center"}
+            },
+            {
+                to: 1
+            }
+            // {
+            //     to: 1
+            // }
+            // {
+            //     to: 0
+            // }
+        ],
+
+        delay: stagger("+150", {
+            gridDims: gridDims,
+            // from: {axis: "y"}
+            from: "center"
+            // from: utils.random(0, 5*6)
+        }),
+
+        // duration: 1000
+        // onComplete: animateGrid
+    });
+}
+
+animateGrid();
 
 
 
-const timer1 = createTimer({
-    duration: 200,
-    loop: true,
-    loopDelay: 1,
-    reversed: false,
-});
+
+// const timer1 = createTimer({
+//     duration: 200,
+//     loop: true,
+//     loopDelay: 1,
+//     reversed: false,
+// });
 
 
 // timer1.sync(animate).start();
