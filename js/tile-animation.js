@@ -1,4 +1,4 @@
-const { animate, utils, stagger } = anime;
+let { animate, utils, stagger, text, createTimeline } = anime;
 
 
 
@@ -41,4 +41,9 @@ function createWave() {
     });
 }
 
+
+// animate("")
+
+
 createWave();
+
