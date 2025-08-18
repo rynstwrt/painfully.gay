@@ -26,27 +26,80 @@ function shakeAnimFunc() {
 //     // delay: 0,
 // });
 
+
+
+const { chars: spanChars } = text.split("#subtitle-span", { chars: true });
+
+
 const subtitleSpanTimeline = createTimeline({
+    loopDelay: 0,
+    // delay: 300,
+    delay: 350,
     defaults: {
         ease: "linear",
         playbackEase: "linear",
-        delay: 0,
-        loop: true,
-        duration: 1
+        duration: 300
     }
 });
 
-subtitleSpanTimeline
-    // .sync(scaleAnim, 0)
-    .add("#subtitle-span", {
-        scale: [1, 1.06, 1],
-        duration: 1400,
-        letterSpacing: ["1px", "3px", "1px"],
-        ease: "inOutElastic",
-    })
-    .call(() => shakeAnimFunc(), 0)
-    // .sync(shakeAnimFunc)
-    .play();
+
+subtitleSpanTimeline.add(spanChars, {
+    scale: [1, 1.2, .7, 1, 0],
+    fontWeight: [{to: "-300"}],
+    color: ["#FFFFFF"],
+    delay: stagger(30),
+    duration: 800,
+    playbackEase: "linear"
+}).add(spanChars, {
+    rotateX: [0, "0.5turn", 0],
+    delay: stagger(45),
+    scale: [0, 1, 0.8, 1],
+    fontWeight: 500,
+    ease: "outSine",
+    duration: 350,
+}).add(spanChars, {
+    color: [{to: "#FF0000"}],
+    alternate: true,
+    loop: 5,
+    ease: "inQuad",
+    duration: 250,
+}).add(utils.$("#subtitle-span")[0].parentElement, {
+    scaleY: 0,
+    height: 0,
+    marginTop: 0,
+    duration: 400,
+    ease: "outQuad",
+    opacity: 0
+    // y: "-100%"
+}, "+=1000").play();
+
+
+console.log()
+
+
+
+// subtitleSpanTimeline
+//     // .sync(scaleAnim, 0)
+//     .add("#subtitle-span", {
+//         // scale: [1, 1.3, 1],
+//
+//         // letterSpacing: ["1px", "3px", "1px"],
+//         letterSpacing: "+=4px",
+//         delay: stagger(40)
+//         // ease: "inOutElastic",
+//         // color: {from: "random", to: ["#FF0000", "#ff7d7d", "#814b4b"]},
+//         // opacity: [0, .5, 0],
+//         // opacity: {
+//         //     to: "+=0.1"
+//         // }
+//         // duration: 100,
+//         // delay: 0,
+//         // scale: [0, "+=2", 0]
+//         // scale: "+=2"
+//     })
+//     // .call(() => shakeAnimFunc(), 0)
+//     // .sync(shakeAnimFunc)
+//     .play();
 
 
 
