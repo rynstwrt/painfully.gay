@@ -40,23 +40,13 @@ subtitleSpanTimeline
     // .sync(scaleAnim, 0)
     .add("#subtitle-span", {
         scale: [1, 1.06, 1],
-        duration: 2000,
+        duration: 1400,
         letterSpacing: ["1px", "3px", "1px"],
-        // ease: "outSine",
         ease: "inOutElastic",
-        // verticalAlign: "baseline",
-        // ease: "",
-        // ease: "linear",
-        // loop: true,
-        // autoplay: false,
-        // duration: 0
-        // delay: 0,
     })
     .call(() => shakeAnimFunc(), 0)
     // .sync(shakeAnimFunc)
     .play();
-
-// subtitleSpanTimeline.play();
 
 
 
