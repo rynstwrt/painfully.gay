@@ -10,24 +10,27 @@ html, body {
 }
 
 body {
-  background-color: rgb(40.2734693878, 102.7265306122, 100.9755102041);
-  width: 100dvw;
+  width: 100vw;
   height: 100dvh;
-  font-weight: 500;
-  font-style: normal;
-  color: red;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
+  width: 400px;
+  height: 400px;
   overflow: hidden;
-  width: 100%;
-  height: 100%;
   display: grid;
-  grid-template-columns: repeat(6, auto);
+  grid-gap: 3px;
+  border: 4px solid white;
+  place-content: center;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(7, 1fr);
 }
 main .tile {
-  background-color: aqua;
-  box-shadow: inset -4px 10px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px black;
 }
 
 /*# sourceMappingURL=style.css.map */
