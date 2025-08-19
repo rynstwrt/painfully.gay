@@ -87,7 +87,7 @@ createTimeline({
     // }, "-=1400")
 
     // BEGIN TILE ANIMATION
-    .call(createWave)
+    .call(createWave, "+=50")
 
     // CALL TIMELINE
     .play();
