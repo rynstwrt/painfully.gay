@@ -1,14 +1,11 @@
-let { animate, utils, stagger, text, createTimeline, waapi } = anime;
-
+let { animate, utils, stagger, text, createTimeline } = anime;
 
 
 const GRID_DIMENSIONS = [7, 7];
 const PRIDE_COLORS = ["#E50000", "#FF8D00", "#FFEE00", "#028121", "#004CFF", "#770088"];
 
 
-
 let colorIndex = 0;
-
 
 
 const tileContainer = document.querySelector("#tile-container");
@@ -20,7 +17,6 @@ for (let i = 0; i < numTiles; ++i) {
     tile.style.backgroundColor = PRIDE_COLORS[colorIndex];
     tileContainer.append(tile);
 }
-
 
 
 let clockwise = true;
@@ -38,7 +34,8 @@ function createWave() {
             from: "center",
             reversed: reversed
         }),
-        // ease: "outQuad",
+        ease: `${!clockwise ? "in" : "out"}Quad`,
+        loopDelay: 0,
         onComplete: () => {
             clockwise = !clockwise;
             reversed = !reversed;
