@@ -70,11 +70,10 @@ subtitleSpanTimeline.add(spanChars, {
     duration: 400,
     ease: "outQuad",
     opacity: 0
-    // y: "-100%"
-}, "+=1000").play();
+}, "+=100").add("#tile-container", {
+    opacity: 1
+}, "-=200").call(createWave).play();
 
-
-console.log()
 
 
 

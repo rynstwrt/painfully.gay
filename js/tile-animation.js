@@ -23,27 +23,32 @@ for (let i = 0; i < numTiles; ++i) {
 
 
 
+let clockwise = true;
+let reversed = false;
+
 function createWave() {
     animate(".tile", {
         scale: [1, 0, 1],
         backgroundColor: [
             { to: PRIDE_COLORS[++colorIndex % PRIDE_COLORS.length] }
         ],
-        rotate: [0, ".25turn"],
+        rotate: [0, (clockwise ? "" : "-") + ".25turn"],
         delay: stagger(110, {
             grid: GRID_DIMENSIONS,
             from: "center",
-            // reversed: true
+            reversed: reversed
             // reverseqd: reversed = !reversed && !reversed
         }),
         // ease: "outQuad",
-        onComplete: createWave,
+        onComplete: () => {
+            clockwise = !clockwise;
+            reversed = !reversed;
+            createWave();
+        }
     });
+
+
+
+    // if (colorIndex.length === PRIDE_COLORS.length - 2)
+    //     reversed = !reversed;
 }
-
-
-// animate("")
-
-
-createWave();
-
