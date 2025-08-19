@@ -69,23 +69,27 @@ createTimeline({
     })
 
     // SHOW TILE CONTAINER
-    .add("#tile-container", {
+    .add(["#tile-container", ".tile"], {
         opacity: [0, 1],
         // height: "400px",
         duration: 300,
-        scale: [0, 1]
+        scale: [0, 1],
+        // borde: "1px solid red",
     }, "-=400")
 
-    // GROW TILES
-    .add(".tile", {
-        opacity: 1,
-        scale: [0, 1],
-        duration: 450,
-        delay: stagger(20),
-    }, "<<-=200")
+    // // GROW TILES
+    // .add(".tile", {
+    //     // opacity: [0, 1],
+    //     // scale: [0, 1],
+    //     delay: stagger(40, { grid: GRID_DIMENSIONS, from: "center" }),
+    //     // ease: "In(6)",
+    //     // ease: "outQuad"
+    //     ease: "outSine"
+    //     // reverse: true
+    // }, "-=450")
 
     // BEGIN TILE ANIMATION
-    .call(createWave, "+=100")
+    .call(createWave)
 
     // CALL TIMELINE
     .play();
