@@ -34,12 +34,13 @@ createTimeline({
 
     // FLIP BACKWARDS TO FRONT
     .add(spanChars, {
-        rotateX: [0, "0.5turn", 0],
-        delay: stagger(45),
-        scale: [0, 1, 0.8, 1],
-        fontWeight: 500,
+        rotateX: [0, "+0.5turn", 0],
+        delay: stagger(50),
+        opacity: [0, 1],
+        scale: [0, 1.05],
+        // fontWeight: 500,
         ease: "outSine",
-        duration: 350
+        duration: 300
     })
 
     // LIMP WRISTS SCROLL
@@ -61,9 +62,15 @@ createTimeline({
         ease: "inOutQuad",
         duration: 300,
     })
+    .add(spanChars, {
+        fontWeight: 500,
+        duration: 200,
+        ease: "outCubic"
+    }, "-=1100")
 
     // REMOVE LINE + SHRINK TITLE BOX
     .add(utils.$("#subtitle-span")[0].parentElement, {
+        // delay: 1000,
         scaleY: 0,
         height: 0,
         marginTop: 0,
@@ -77,6 +84,7 @@ createTimeline({
         duration: 300,
         scale: [0, 1],
     }, "-=400")
+    // }, "-=1400")
 
     // BEGIN TILE ANIMATION
     .call(createWave)

@@ -34,8 +34,8 @@ function createWave() {
             from: "center",
             reversed: reversed
         }),
-        ease: `${!clockwise ? "in" : "out"}Quad`,
-        loopDelay: 0,
+        // ease: `${!clockwise ? "in" : "out"}Quad`,
+        ease: `${!clockwise ? "in" : "out"}Sine`,
         onComplete: () => {
             clockwise = !clockwise;
             reversed = !reversed;
