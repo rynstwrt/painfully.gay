@@ -1,4 +1,4 @@
-let { animate, utils, stagger, text, createTimeline } = anime;
+let { animate, utils, stagger, text, createTimeline, waapi } = anime;
 
 
 
@@ -37,7 +37,6 @@ function createWave() {
             grid: GRID_DIMENSIONS,
             from: "center",
             reversed: reversed
-            // reverseqd: reversed = !reversed && !reversed
         }),
         // ease: "outQuad",
         onComplete: () => {
@@ -46,9 +45,4 @@ function createWave() {
             createWave();
         }
     });
-
-
-
-    // if (colorIndex.length === PRIDE_COLORS.length - 2)
-    //     reversed = !reversed;
 }

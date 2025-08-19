@@ -1,105 +1,91 @@
-function shakeAnimFunc() {
-    const randomNum = utils.random(-5, 5) * .1;
+const {chars: spanChars} = text.split("#subtitle-span", {
+    words: false,
+    chars: true
+});
 
-    animate("#subtitle-span", {
-        duration: 20,
-        // duration: 40,
-        x: randomNum > 0 ? `${randomNum}` : `${randomNum}`,
-        y: randomNum > 0 ? `${randomNum}` : `${randomNum}`,
-        // ease: "linear",
-        // playbackEase: "linear",
-        // delay: 0,
-        // onComplete: shakeAnimFunc
-    });
-}
-
-
-
-// const scaleAnim = animate("#subtitle-span", {
-//     scale: [1, 1.1, 1],
-//     duration: 3000,
-//     // ease: "",
-//     // ease: "linear",
-//     // loop: true,
-//     autoplay: false,
-//     // duration: 0
-//     // delay: 0,
-// });
-
-
-
-const { chars: spanChars } = text.split("#subtitle-span", { chars: true });
-
-
-const subtitleSpanTimeline = createTimeline({
-    loopDelay: 0,
-    // delay: 300,
-    delay: 350,
-    defaults: {
-        ease: "linear",
-        playbackEase: "linear",
-        duration: 300
-    }
+const {chars: limpWristChars} = text.split("#limp-wrists-span", {
+    words: false,
+    chars: true
 });
 
 
-subtitleSpanTimeline.add(spanChars, {
-    scale: [1, 1.2, .7, 1, 0],
-    fontWeight: [{to: "-300"}],
-    color: ["#FFFFFF"],
-    delay: stagger(30),
-    duration: 800,
-    playbackEase: "linear"
-}).add(spanChars, {
-    rotateX: [0, "0.5turn", 0],
-    delay: stagger(45),
-    scale: [0, 1, 0.8, 1],
-    fontWeight: 500,
-    ease: "outSine",
-    duration: 350,
-}).add(spanChars, {
-    color: [{to: "#FF0000"}],
-    alternate: true,
-    loop: 5,
-    ease: "inQuad",
-    duration: 250,
-}).add(utils.$("#subtitle-span")[0].parentElement, {
-    scaleY: 0,
-    height: 0,
-    marginTop: 0,
-    duration: 400,
-    ease: "outQuad",
-    opacity: 0
-}, "+=100").add("#tile-container", {
-    opacity: 1
-}, "-=200").call(createWave).play();
 
+createTimeline({
+    defaults: {
+        ease: "outCubic",
+        delay: 0,
+        loopDelay: 0,
+        autoplay: false
+    },
+    autoplay: false
+})
+    // TEXT WAVE
+    .add(spanChars, {
+        scale: [1, 1.2, .7, 1, 0],
+        fontWeight: [{to: "-300"}],
+        color: ["#FFFFFF"],
+        delay: stagger(30),
+        duration: 700,
+        playbackEase: "linear"
+    })
 
+    // FLIP BACKWARDS TO FRONT
+    .add(spanChars, {
+        rotateX: [0, "0.5turn", 0],
+        delay: stagger(45),
+        scale: [0, 1, 0.8, 1],
+        fontWeight: 500,
+        ease: "outSine",
+        duration: 350
+    })
 
+    // LIMP WRISTS SCROLL
+    .add(limpWristChars, {
+        color: PRIDE_COLORS.concat(["#FFFFFF"]),
+        fontWeight: "+=200",
+        scaleY: 1.1,
+        delay: stagger(15),
+        duration: 350,
+        filter: [`brightness(110%)`, `brightness(150%)`],
+        ease: "linear"
+    })
 
-// subtitleSpanTimeline
-//     // .sync(scaleAnim, 0)
-//     .add("#subtitle-span", {
-//         // scale: [1, 1.3, 1],
-//
-//         // letterSpacing: ["1px", "3px", "1px"],
-//         letterSpacing: "+=4px",
-//         delay: stagger(40)
-//         // ease: "inOutElastic",
-//         // color: {from: "random", to: ["#FF0000", "#ff7d7d", "#814b4b"]},
-//         // opacity: [0, .5, 0],
-//         // opacity: {
-//         //     to: "+=0.1"
-//         // }
-//         // duration: 100,
-//         // delay: 0,
-//         // scale: [0, "+=2", 0]
-//         // scale: "+=2"
-//     })
-//     // .call(() => shakeAnimFunc(), 0)
-//     // .sync(shakeAnimFunc)
-//     .play();
+    // FLASH RED
+    .add(spanChars, {
+        color: [{to: "#FF0000"}],
+        alternate: true,
+        loop: 3,
+        ease: "inOutQuad",
+        duration: 300,
+    })
 
+    // REMOVE LINE + SHRINK TITLE BOX
+    .add(utils.$("#subtitle-span")[0].parentElement, {
+        scaleY: 0,
+        height: 0,
+        marginTop: 0,
+        duration: 400,
+        opacity: 0
+    })
 
+    // SHOW TILE CONTAINER
+    .add("#tile-container", {
+        opacity: [0, 1],
+        // height: "400px",
+        duration: 300,
+        scale: [0, 1]
+    }, "-=400")
 
-// shakeAnimFunc();
+    // GROW TILES
+    .add(".tile", {
+        opacity: 1,
+        scale: [0, 1],
+        duration: 450,
+        delay: stagger(20),
+    }, "<<-=200")
+
+    // BEGIN TILE ANIMATION
+    .call(createWave, "+=100")
+
+    // CALL TIMELINE
+    .play();
