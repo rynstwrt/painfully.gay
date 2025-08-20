@@ -5,43 +5,51 @@
 __*It's 𝘩𝘰𝘮𝘰𝘴𝘦𝘹𝘶𝘢𝘭~ ♡*__<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;╚=>&nbsp;https://painfully.gay
 
 
+<br>
 
 <br>
 
-[//]: # (##### ***•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•***)
+[//]: # (<br>)
 
-[//]: # (- - - - -)
+[//]: # ($\textcolor{cyan}{\text{asdf asdf asdf}}$)
 
+[//]: # (<br>)
 
-[//]: # (.&nbsp;&nbsp;.&nbsp;&nbsp;.&nbsp;&nbsp;)
-
-.&nbsp;.&nbsp;.&nbsp;
-
-<br>
+[//]: # (.&nbsp;.&nbsp;.&nbsp;)
 
 
 [//]: # (<br>)
 
+[//]: # (&nbsp;&nbsp;***ＴＯＴＡＬ ＧＡＹ ＰＷＮＡＧＥ:***<br>)
 
+[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*|- &nbsp;Luxury space communism*<br>)
 
-:･ﾟ✧:･ﾟ✧&nbsp;&nbsp;------------------&nbsp;&nbsp;✧･ﾟ: ✧･ﾟ:<br>
+[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*|- &nbsp;In your area! &#40;No CC required!&#41;*<br>)
 
-[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•<br>)
+[//]: # ()
 
-&nbsp;&nbsp;***ＴＯＴＡＬ ＧＡＹ ＰＷＮＡＧＥ:***<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*|- &nbsp;Luxury space communism*<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*|- &nbsp;In your area! (No CC required!)*<br>
+[//]: # (:･ﾟ✧:･ﾟ✧&nbsp;&nbsp;------------------&nbsp;&nbsp;✧･ﾟ: ✧･ﾟ:<br>)
 
-[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•<br>)
-
-:･ﾟ✧:･ﾟ✧&nbsp;&nbsp;------------------&nbsp;&nbsp;✧･ﾟ: ✧･ﾟ:<br>
-
-
-
-<br>
+[//]: # ()
+[//]: # (---)
 
 
 
-[//]: # (![snapshot-2025-08-19T04.12.00.000Z.mov]&#40;assets/videos/snapshot-2025-08-19T04.12.00.000Z.mov&#41;)
+[//]: # ($\textcolor{gray}{\text{:･ﾟ✧:･ﾟ✧  ----------------------------------  ✧･ﾟ: ✧･ﾟ:}}$<br>)
 
-[//]: # (**\\|&nbsp;~ UwU ~&nbsp;|/**)
+[//]: # (&nbsp;&nbsp;&nbsp; $\textcolor{orange}{\textbf{[ ＴＯＴＡＬ ＧＡＹ ＰＷＮＡＧＥ ]}}$<br>)
+
+[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\textcolor{lightgray}{\textbf{|- &nbsp;Luxury space communism.}}$<br>)
+
+[//]: # (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\textcolor{lightgray}{\textbf{|- &nbsp;In your area! &#40;No CC required!&#41;.}}$<br>)
+
+[//]: # ($\textcolor{gray}{\text{:･ﾟ✧:･ﾟ✧  ----------------------------------  ✧･ﾟ: ✧･ﾟ:}}$<br>)
+
+[//]: # (<br>)
+
+
+$\small{\textcolor{darkgray}{\textsf{:･ﾟ✧:･ﾟ✧  --------------------------------------  ✧･ﾟ: ✧･ﾟ:}}}$<br>
+&nbsp;&nbsp; $\normalsize{\textcolor{#FF00FF}{\texttt{[~ ＴＯＴＡＬ ＧＡＹ ＰＷＮＡＧＥ ~]}}}$<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\normalsize{\textcolor{#FF6600}{\textbf{|- \textsf{Luxury space communism.}}}}$<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\normalsize{\textcolor{#FF6600}{\textbf{|- \textsf{In your area! (No CC required!)}}}}$<br>
+$\small{\textcolor{darkgray}{\textsf{:･ﾟ✧:･ﾟ✧  --------------------------------------  ✧･ﾟ: ✧･ﾟ:}}}$<br>
