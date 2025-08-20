@@ -8,10 +8,10 @@ It's **𝘩𝘰𝘮𝘰𝘴𝘦𝘹𝘶𝘢𝘭** ♡ &nbsp; *UwU~*<br>&nbsp;&nb
 <br><br>
 
 
-$\small{\textcolor{#464646}{\textsf{:･ﾟ✧:･ﾟ✧  --------------------------------------  ✧･ﾟ: ✧･ﾟ:}}}$<br>
+$\normalsize{\textcolor{#464646}{\textsf{:･ﾟ✧:･ﾟ✧  --------------------------------------  ✧･ﾟ: ✧･ﾟ:}}}$<br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\normalsize{\textcolor{#e34826}{\textbf{[-| TOTAL GAY PWNAGE |-]}}}$<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\small{\textcolor{#E3806B}{\textbf{╚| &nbsp; \textsf{Luxury space communism.}}}}$<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\small{\textcolor{#E3806B}{\textbf{╚| &nbsp; \textsf{In your area! (No CC required!)}}}}$<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\large{\textcolor{#e34826}{\texttt{[-| TOTAL GAY PWNAGE |-]}}}$<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\small{\textcolor{#E3806B}{\textbf{╚| &nbsp; \textsf{Luxury space communism.}}}}$<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\small{\textcolor{#E3806B}{\textbf{╚| &nbsp; \textsf{In your area! (No CC required!)}}}}$<br>
 
-$\small{\textcolor{#464646}{\textsf{:･ﾟ✧:･ﾟ✧  --------------------------------------  ✧･ﾟ: ✧･ﾟ:}}}$
+$\normalsize{\textcolor{#464646}{\textsf{:･ﾟ✧:･ﾟ✧  --------------------------------------  ✧･ﾟ: ✧･ﾟ:}}}$
