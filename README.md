@@ -8,6 +8,13 @@ It's **𝘩𝘰𝘮𝘰𝘴𝘦𝘹𝘶𝘢𝘭** ♡ &nbsp; *UwU~*<br>&nbsp;&nb
 <br>
 
 
+### AS OF 2025/08/18, 01:50 AM UTC:
+https://github.com/user-attachments/assets/6ca20e19-fdb5-4d45-b4f2-9660e862f709
+
+
+<br><br>
+
+
 $\normalsize{\textcolor{#464646}{\textsf{:･ﾟ✧:･ﾟ✧  --------------------------------------  ✧･ﾟ: ✧･ﾟ:}}}$<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\large{\textcolor{#e34826}{\texttt{☆\*– \hspace{6px} TOTAL GAY PWNAGE \hspace{6px} –\*☆}}}$<br>
@@ -15,10 +22,3 @@ $\normalsize{\textcolor{#464646}{\textsf{:･ﾟ✧:･ﾟ✧  -----------------
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\small{\textcolor{#E3806B}{\textbf{╚| &nbsp; \textsf{In your area! (No CC required!)}}}}$<br>
 
 $\normalsize{\textcolor{#464646}{\textsf{:･ﾟ✧:･ﾟ✧  --------------------------------------  ✧･ﾟ: ✧･ﾟ:}}}$
-
-
-<br>
-
-
-# AS OF 2025/08/18, 01:50 AM UTC
-https://github.com/user-attachments/assets/6ca20e19-fdb5-4d45-b4f2-9660e862f709
