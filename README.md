@@ -14,10 +14,10 @@ $\Tiny{\textcolor{#464646}{\textbf{• * • . • * • * • . • * • . •
 <br>
 
 
-$\small{\textcolor{#FFF}{\textsf{:･ﾟ✧:･ﾟ✧  --------------------------------------  ✧･ﾟ: ✧･ﾟ:}}}$
+$\small{\textcolor{#FFF}{\textsf{:･ﾟ✧:･ﾟ✧  --------------------------------------  ✧･ﾟ: ✧･ﾟ:}}}$<br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\large{\textcolor{#e34826}{\textbf{[-| TOTAL GAY PWNAGE |-]}}}$<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\normalsize{\textcolor{#E3806B}{\textbf{╚| &nbsp; \textsf{Luxury space communism.}}}}$<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\normalsize{\textcolor{#E3806B}{\textbf{╚| &nbsp; \textsf{In your area! (No CC required!)}}}}$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\normalsize{\textcolor{#e34826}{\textbf{[-| TOTAL GAY PWNAGE |-]}}}$<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\small{\textcolor{#E3806B}{\textbf{╚| &nbsp; \textsf{Luxury space communism.}}}}$<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\small{\textcolor{#E3806B}{\textbf{╚| &nbsp; \textsf{In your area! (No CC required!)}}}}$<br>
 
 $\small{\textcolor{#FFF}{\textsf{:･ﾟ✧:･ﾟ✧  --------------------------------------  ✧･ﾟ: ✧･ﾟ:}}}$
