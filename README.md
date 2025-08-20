@@ -10,7 +10,7 @@ It's **𝘩𝘰𝘮𝘰𝘴𝘦𝘹𝘶𝘢𝘭** ♡ &nbsp; *UwU~*<br>&nbsp;&nb
 
 $\normalsize{\textcolor{#464646}{\textsf{:･ﾟ✧:･ﾟ✧  --------------------------------------  ✧･ﾟ: ✧･ﾟ:}}}$<br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\large{\textcolor{#e34826}{\texttt{☆\*– \hspace{6px} TOTAL GAY PWNAGE \hspace{6px} –\*☆}}}$<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\large{\textcolor{#e34826}{\texttt{☆\*– \hspace{6px} TOTAL GAY PWNAGE \hspace{6px} –\*☆}}}$<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\small{\textcolor{#E3806B}{\textbf{╚| &nbsp; \textsf{Luxury space communism.}}}}$<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\small{\textcolor{#E3806B}{\textbf{╚| &nbsp; \textsf{In your area! (No CC required!)}}}}$<br>
 
